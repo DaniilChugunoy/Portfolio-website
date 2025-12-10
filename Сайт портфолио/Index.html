@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Чугунов Даниил</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Чугунов Даниил</a>
+            <button class="menu-toggle" aria-label="Меню">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">Обо мне</a></li>
+                <li><a href="#projects" class="nav-link">Проекты</a></li>
+                <li><a href="#services" class="nav-link">Услуги</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Привет, я <span class="highlight">Даниил</span></h1>
+                <p class="subtitle">IT-специалист широкого профиля</p>
+                <p>Создаю цифровые решения на стыке технологий и дизайна: от веб-разработки до 3D-графики.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Мои работы</a>
+                    <a href="#contact" class="btn btn-secondary">Контакты</a>
+                </div>
+            </div>
+            <div class="hero-image">            
+                    <div class="hero-image">
+                         <img src="images/Copilot_20250601_161401 (1).png" alt="Ваше имя" class="your-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <p>Меня зовут <strong>Даниил</strong>, я IT-специалист широкого профиля<strong></strong>. Имею опыт в создании качественных цифровых продуктов.</p>
+                <p>Сочетаю создание визуального контента с технической разработкой: моделирование в Blender, анимация в After Effects, веб-верстка на HTML/CSS/JS, разработка игр в GDevelop/Unity. Каждый инструмент — для своей задачи, каждая задача — с фокусом на детали.</p>
+                
+                <div class="stats">
+                    <div class="stat">
+                        <span class="number" data-count="18">0</span>
+                        <span class="label">Проектов</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" data-count="5">0</span>
+                        <span class="label">Года опыта</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" data-count="15">0</span>
+                        <span class="label">Клиентов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <p class="section-subtitle">Примеры моих работ</p>
+            
+            <div class="projects-grid">
+                <!-- Проект 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <!-- Замените src на путь к вашему изображению -->
+                        <img src="images/Screenshot_1.png" 
+                             alt="" 
+                             class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Сайт по продаже автомобилей</h3>
+                        <p>Создание современного адаптивного сайта для компании продажи авто. Использованы HTML, CSS, JavaScript.</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Проект 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/Screenshot_3.png" 
+                             alt="Интернет-магазин" 
+                             class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Игра-платформер</h3>
+                        <p>2д Игра-платформер с поддержкой на пк и мобильных устройствах.</p>
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>GDevelop5</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Проект 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/Screenshot_4.png" 
+                             alt="Мобильное приложение" 
+                             class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Солнечная система</h3>
+                        <p>Анимированная солнечная система, созданная с помощью Blender 3D</p>
+                        <div class="tags">
+                            <span>Blender 3D</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Чем я занимаюсь</h2>
+            <p class="section-subtitle">Нажмите на услугу для подробной информации</p>
+            
+            <div class="services-grid">
+                <!-- Карточки услуг -->
+                <div class="service-card" data-service="web">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Веб-разработка</h3>
+                    <p>Создание современных веб-сайтов</p>
+                </div>
+                
+                <div class="service-card" data-service="design">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Дизайн/Анимации</h3>
+                    <p>Создание логотипов и их анимация</p>
+                </div>
+                
+                <div class="service-card" data-service="mobile">
+                    <div class="service-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>3D моделирование</h3>
+                    <p>Создание 3D моделей</p>
+                </div>
+                
+                <div class="service-card" data-service="seo">
+                    <div class="service-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>GameDev</h3>
+                    <p>Разработка игр на Unity и других платформах</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Свяжитесь со мной</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>[email]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>[телефон]</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Местоположение</h4>
+                            <p>[город]</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social">
+                    <h3>Социальные сети</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/DaniilChugunoy?tab=repositories" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://t.me/Danya180611" class="social-icon" aria-label="Telegram">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Discord">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Все права защищены.</p>
+            <p>Сайт разработан с ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Кнопка наверх -->
+    <button id="back-to-top" class="back-to-top" aria-label="Наверх">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Модальное окно для услуг -->
+    <div id="service-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Закрыть">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="modal-header">
+                <h2 id="modal-title">Название услуги</h2>
+            </div>
+            
+            <div class="modal-body">
+                <!-- Контент будет подгружаться из JS -->
+                <div id="modal-description">
+                    <p>Описание услуги будет здесь.</p>
+                </div>
+                
+                <!-- Галерея для фото в модальном окне -->
+                <div class="modal-gallery">
+                    <h3>Примеры работ</h3>
+                    <div class="gallery-grid">
+                        <!-- Фото будут добавляться через JS -->
+                        <div class="gallery-item placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Ваше фото 1</p>
+                        </div>
+                        <div class="gallery-item placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Ваше фото 2</p>
+                        </div>
+                        <div class="gallery-item placeholder">
+                            <i class="fas fa-image"></i>
+                            <p>Ваше фото 3</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Дополнительная информация -->
+                <div class="modal-extra">
+                    <h3>Технологии</h3>
+                    <div class="tech-tags">
+                        <!-- Теги будут добавляться через JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Данные для модальных окон -->
+    <script type="application/json" id="services-data">
+        {
+            "web": {
+                "title": "Веб-разработка",
+                "description": "Создание современных, адаптивных веб-сайтов. От простых лендингов до сложных систем управления контентом. Работаю с HTML, CSS, JavaScript.",
+                "tech": ["HTML", "CSS", "JavaScript", "Frontend", "Верстка сайтов", "Макетные сайты"],
+                "images": ["images/screenshot_1.png", "images/Сайт 2.png", "images/Сайт 3.png"]
+            },
+            "design": {
+                "title": "Дизайн/Анимация",
+                "description": "Создание удобных и эстетичных логотипов. Анимация этих логотипов.",
+                "tech": ["After Effects", "Media Encoder", "Illustrator", "Adobe Photoshop"],
+                "images": ["images/After effects 1.png", "images/After effects 2.png", "images/Media Encoder.png"]
+            },
+            "mobile": {
+                "title": "3D моделирование",
+                "description": "Моделирование, создание 3D объектов и их анимация",
+                "tech": ["Blender 3D", "Моделирование", "Анимация", ""],
+                "images": ["images/screenshot_5.png", "images/screenshot_4.png", "images/screenshot_6.png"]
+            },
+            "seo": {
+                "title": "GameDev",
+                "description": "Разработка игр на Unity, GDevelop 5 и других платформах, с использованием языков C++, C# и тд.",
+                "tech": ["Unity", "C#", "Unreal Engine", "GDevelop 5"],
+                "images": ["images/Screenshot_11.png", "images/Screenshot_8.png", "images/Screenshot_7.png"]
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
